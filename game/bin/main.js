@@ -40,7 +40,8 @@ const main = () => {
             this.button.setColor("#FFFFFF");
             this.button.update();
             if (this.button.cnt >= 100) {
-                openWindow('http://twitter.com/?status=可変時間シューティングTIME%0a体感時間' + Math.floor(this.t / 60) + '秒でクリア！%0a#TIME_Shooting%0ahttps://n-inja.github.io/TIME/game/', '_blank');
+
+                openWindow('https://twitter.com/intent/tweet?text=可変時間シューティングTIME%0a体感時間' + Math.floor(this.t / 60) + '秒でクリア！&url=https://n-inja.github.io/TIME/game/&hashtags=TIME_Shooting', '_blank');
 				this.t = 0;
 	            this.game = new Game();
 	            x = 512 / 2;
