@@ -58,6 +58,7 @@ const main = () => {
             this.button = new Button();
         }
     }
+	drawString("a", 0, 0, 10, "#000000");
     this.game.draw();
     if (this.game.isGameClear()) {
         drawString("ツブヤク？", 0, 100, "#FFFFFF");
